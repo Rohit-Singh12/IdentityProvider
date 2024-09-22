@@ -1,0 +1,29 @@
+{
+  "name": "identityauthorizationcontainer",
+  "version": "1.0.0",
+  "description": "Create a container which uses Firebase for user authentication and authorization of API. The aim is to run this as separate service so that any other project can utilize this service for API authorization and User Authentication",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rohit-Singh12/IdentityAuthorizationContainer.git"
+  },
+  "keywords": [],
+  "author": "Rohit Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rohit-Singh12/IdentityAuthorizationContainer/issues"
+  },
+  "homepage": "https://github.com/Rohit-Singh12/IdentityAuthorizationContainer#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "firebase": "^10.13.0",
+    "firebase-admin": "^12.4.0"
+  }
+}
